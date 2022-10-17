@@ -9,7 +9,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     
 	for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	}
 	  
 	  printf("\n");
@@ -20,7 +20,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	}
 	for(i=0;i<b;i++){
 	  
-	  printf("%d",dizi2[i]-48);  
+	  printf("%d ",dizi2[i]-48);  
 	}
 	 
 	  printf("\n");
@@ -51,7 +51,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     
 	for(k=0;k<a;k++){
     	
-        printf("%d",dizi3[k]);  
+        printf("%d ",dizi3[k]);  
  }
 }
  else{
@@ -59,7 +59,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	
 	for(i=0;i<b;i++){
 	
-	  printf("%d",dizi2[i]-48);
+	  printf("%d ",dizi2[i]-48);
 	}
 	  
 	  printf("\n");
@@ -71,7 +71,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	  
 	for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	}
 	  
 	  printf("\n");
@@ -103,7 +103,7 @@ void toplama(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     
 	for(k=0;k<b;k++){
        
-	   printf("%d",dizi3[k]);
+	   printf("%d ",dizi3[k]);
 }
    
    }
@@ -115,7 +115,7 @@ void cikarma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	  int j=b-1;
     for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	}
 	  
 	  printf("\n");
@@ -128,7 +128,7 @@ void cikarma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	
 	for(i=0;i<b;i++){
 	  
-	  printf("%d",dizi2[i]-48);
+	  printf("%d ",dizi2[i]-48);
 	  
 	}
 	  
@@ -160,7 +160,7 @@ void cikarma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     
 	for(k=0;k<a;k++){
     	
-      printf("%d",dizi3[k]);
+      printf("%d ",dizi3[k]);
    }
 }
 if(a<b){
@@ -178,7 +178,7 @@ if(a<b){
 	
 	for(i=0;i<a;i++){
      
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	 }
 	  
 	  printf("\n");
@@ -207,7 +207,7 @@ if(a<b){
     
 	for(k=0;k<b;k++){
    
-   printf("%d",dizi3[k]);
+   printf("%d ",dizi3[k]);
 }
    
    }	
@@ -220,7 +220,7 @@ else if(a=b){
 
 	for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	}
 	  
 	  printf("\n");
@@ -233,7 +233,7 @@ else if(a=b){
 	
 	for(i=0;i<b;i++){
 	  
-	  printf("%d",dizi2[i]-48);
+	  printf("%d ",dizi2[i]-48);
 	  
 	}
 	  
@@ -260,7 +260,7 @@ else if(a=b){
     
 	for(k=0;k<a;k++){
     	
-      printf("%d",dizi3[k]);
+      printf("%d ",dizi3[k]);
    }
 }
    else{
@@ -278,7 +278,7 @@ else if(a=b){
 	
 	for(i=0;i<a;i++){
      
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	 }
 	  
 	  printf("\n");
@@ -304,7 +304,7 @@ else if(a=b){
     
 	for(k=0;k<b;k++){
    
-   printf("%d",dizi3[k]);
+   printf("%d ",dizi3[k]);
 }
    }	
 }
@@ -321,7 +321,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	
 	for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	}
 	  
 	  printf("\n");
@@ -333,7 +333,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	
 	for(i=0;i<b;i++){
 	  
-	  printf("%d",dizi2[i]-48);	    
+	  printf("%d ",dizi2[i]-48);	    
 	}
 	  
 	  printf("\n");
@@ -367,7 +367,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     }
     
     for(;i >= 0;i--){
-        printf("%d",dizi3[i]);
+        printf("%d ",dizi3[i]);
     }
   }
     else{
@@ -378,7 +378,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 
 	for(i=0;i<b;i++){
 	  
-	  printf("%d",dizi2[i]-48);
+	  printf("%d ",dizi2[i]-48);
 	    
 	}
 
@@ -390,7 +390,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
 	}
     for(i=0;i<a;i++){
       
-	  printf("%d",dizi1[i]-48);
+	  printf("%d ",dizi1[i]-48);
 	  
 	}
 	  
@@ -427,7 +427,7 @@ void carpma(char dizi1[],char dizi2[],int dizi3[],int a,int b){
     
     for(;i >= 0;i--){
         
-		printf("%d",dizi3[i]);
+		printf("%d ",dizi3[i]);
     }
   }
 }
